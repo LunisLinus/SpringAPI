@@ -4,10 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Knit241Application {
-
+public class CityTimeApiApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Knit241Application.class, args);
+		SpringApplication.run(CityTimeApiApplication.class, args);
 	}
-
 }
