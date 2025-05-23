@@ -7,6 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class CityInfo {
+    private long id;
     private String city;
     private String country;
     private double latitude;
@@ -14,5 +15,7 @@ public class CityInfo {
     private String timezone;
     private String localTime;
     private String utcTime;
+    private long population;
+    private String imageUrl;
     private String timeDescription;
 }
